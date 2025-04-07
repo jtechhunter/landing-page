@@ -50,24 +50,19 @@
       margin-bottom: 30px;
     }
 
-    .job-card {
+    a.job-card {
+      display: block;
+      text-decoration: none;
       background-color: #17a2b8;
       color: white;
       padding: 15px;
       margin: 10px 0;
       border-radius: 10px;
+      transition: background-color 0.3s ease;
     }
 
-    .job-card a {
-      display: block;
-      color: #ffffff;
-      word-wrap: break-word;
-      font-size: 14px;
-      margin-top: 8px;
-    }
-
-    .job-card a:hover {
-      text-decoration: underline;
+    a.job-card:hover {
+      background-color: #138496;
     }
   </style>
 </head>
@@ -78,36 +73,25 @@
     <h1>TechHunter</h1>
     <p class="tagline">Feeding creative minds</p>
 
-    <div class="job-card">
-      <strong>Apple - Senior Data Engineer - Analytics Engineering - Dublin, Ireland</strong>
-      <a href="https://jobs.apple.com/en-us/details/200594799/senior-data-engineer-analytics-engineering?team=SFTWR" target="_blank">
-      </a>
-    </div>
+    <a href="https://jobs.apple.com/en-us/details/200594799/senior-data-engineer-analytics-engineering?team=SFTWR" target="_blank" class="job-card">
+      Apple - Senior Data Engineer - Analytics Engineering - Dublin, Ireland
+    </a>
 
-   <div class="job-card">
-      <strong>CD Projekt Red - DevOps Engineering Manager - Analytics Engineering - Warsaw, Poland</strong>
-      <a href="https://www.cdprojektred.com/en/jobs/744000044514703-devops-engineering-manager" target="_blank">
-      
-      </a>
-    </div>
+    <a href="https://www.cdprojektred.com/en/jobs/744000044514703-devops-engineering-manager" target="_blank" class="job-card">
+      CD Projekt Red - DevOps Engineering Manager - Warsaw, Poland
+    </a>
 
-    <div class="job-card">
-      <strong>Infront - DevOps Director Wealth Technology- Zurich, Switzerland</strong>
-      <a href="http://mycareer.infrontfinance.com/accueil.aspx?LCID=2057#ancrecontenu" target="_blank">
-      </a>
-    </div>
+    <a href="http://mycareer.infrontfinance.com/accueil.aspx?LCID=2057#ancrecontenu" target="_blank" class="job-card">
+      Infront - DevOps Director Wealth Technology - Zurich, Switzerland
+    </a>
 
-    <div class="job-card">
-      <strong>Medpace - Senior Fullstack .NET Developer - Leuven, Belgium</strong>
-      <a href="https://careers.medpace.com/jobs/10969?lang=en-us" target="_blank">
-      </a>
-    </div>
+    <a href="https://careers.medpace.com/jobs/10969?lang=en-us" target="_blank" class="job-card">
+      Medpace - Senior Fullstack .NET Developer - Leuven, Belgium
+    </a>
 
-    <div class="job-card">
-      <strong>EUMETSAT - Computing Service Implementation Lead - Darmstadt, Germany/strong>
-      <a href="https://eumetsat.onlyfy.jobs/job/3sl1vgp2" target="_blank">
-      </a>
-    </div>
+    <a href="https://eumetsat.onlyfy.jobs/job/3sl1vgp2" target="_blank" class="job-card">
+      EUMETSAT - Computing Service Implementation Lead - Darmstadt, Germany
+    </a>
   </div>
 </body>
 </html>
